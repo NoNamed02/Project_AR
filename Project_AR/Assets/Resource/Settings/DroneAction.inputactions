@@ -1,0 +1,46 @@
+{
+    "name": "DroneAction",
+    "maps": [
+        {
+            "name": "DroneAction",
+            "id": "f4995355-1bbf-404d-a815-7202e9e9de13",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "7e8e7dd3-2d00-45d3-b20d-6170a2dda276",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5b12f50e-f09c-4ee5-8aeb-625941c64ded",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
